@@ -44,6 +44,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_16_020009) do
 
   create_table "add_avatar_to_mentors", force: :cascade do |t|
     t.string "avatar"
+    t.string "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
